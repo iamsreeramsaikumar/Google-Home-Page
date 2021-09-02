@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+body{
+   overflow: hidden;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.div1, .div2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgs, .gapps{
+    height: 19px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+}
+.div1 ul, .div2 ul, .div3 ul{
+    margin-left: 15px;
+}
+.div1 ul li .right{
+    margin-left: 12px;
+}
+.div1 ul li .refresh{
+    margin-left: 13px;
+}
+.div1 ul li .input{
+    width: 1055px;
+    border-radius: 22px;
+    background: #ececec;
+    border-style: none;
+    padding: 5px;
+    padding-left: 38px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: -4px;
+    outline: none;
+    padding-bottom: 7px;
+}
+.div1 ul li .mtp{
+    margin-top: 11px;
+}
+.div1 ul li .lock{
+    position: relative;
+    left: 24px;
+    height: 17px;
+    top: 1px;
+}
+.div1 ul li .star{
+    position: relative;
+    right: 28px;
+}
+.div1 ul li .user{
+    margin-left: -9px;
+    margin-right: 7px;   
+}
+.div2 ul li .apps{
+    height: 17px;
+    position: relative;
+    top: 5px;
+}
+.div2 ul{
+    margin-top: 7px;
+}
+.div2{
+    display: inline;
+    font-size: 4px;
+}
+.div2 span{
+    font-size: 13px;
+    margin-left: 6px;
+}
+.div2 .ml{
+    margin-left: 17px;
+}
+.div2_sub5 li{
+    margin-left: 1131px;
+    position: relative;
+    bottom: 20px;
+}
+.div2 #line{
+    position: relative;
+    left: 10px;
+}
+.div3{
+    position: relative;
+    left: 959px;
+}
+.div3 ul li{
+    margin-top: 6px;
+}
+content hr{
+    position: relative;
+    bottom: 9px;
+    width: 100%;
+}
+.div3 .gapps{
+    height: 25px;
+    position: relative;
+    bottom: 2px;
+    margin-left: 28px;
+}
+.div3 ul button{
+    height: 35px;
+    width: 93px;
+    background-color: #1a73e8;
+    color: whhi;
+    color: white;
+    border-block: none;
+    border-radius: 7px;
+    border-style: none;
+    position: relative;
+    bottom: 7px;
+    right: -25px;
+}
+.div3 ul .gimg{
+    margin-left: 18px;
+}
+.div4 img {
+    position: relative;
+    height: 361px;
+    left: 168px;
+    bottom: -13px;
+}
+.div5 input[type="text"]{
+    width: 456px;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid #b7b5b5;
+    outline: none;
+    padding-left: 48px;
+    font-size: 18px;
+}
+.div5 ul .srch{
+    height: 20px;
+}
+.div5 ul .src1{
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    height: 18px;
+}
+.div5 ul .src2{
+    position: absolute;
+    top: 8px;
+    left: 469px;
+}
+.div5{
+    position: relative;
+    bottom: 95px;
+    left: 369px;
+}
+.div6{
+    position: relative;
+    bottom: 49px;
+    right: 49px;
+}
+.div6 button{
+    height: 42px;
+    width: 137px;
+    margin: 0px 14px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+.div7{
+    position: absolute;
+    bottom: 348px;
+    left: 307px;
+}
+.div7 ul .bl{
+    color: blue;
+}
+.div7 ul li{
+    margin: 0px 5px;
+}
+.div7 ul li a{
+    position: relative;
+    bottom: 4px;
+}
+.div7 ul li span{
+    position: relative;
+    left: 4px;
+}
+.div8 img{
+    height: 30px;
+}
+.div8{
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: relative;
+    top: 70px;
+    right: 395px;
+    font-size: 13px;
+}
+.div8 .box{
+    margin: 0px 16px;
+    align-items: center;
+    text-align: center;
+    height: 96px;
+    width: 86px;
+}
+.div8 .box #mtp{
+    position: relative;
+    top: 29px;
+}
+.div8 #silver{
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    background: #ececec;
+    outline: none;
+    border: none;
+    left: 32px;
+    top: -11px;
+    z-index: -1;
+}
+.div8 #silver2{
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    background: #ececec;
+    outline: none;
+    border: none;
+    left: 150px;
+    top: -11px;
+    z-index: -1;
+}
+.div8 #silver3{
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    position: absolute;
+    background: #ececec;
+    outline: none;
+    border: none;
+    left: 268px;
+    top: -11px;
+    z-index: -1;
+}
+.div8 .box .pl{
+    height: 19px;
+    position: relative;
+    top: 6px;
+    left: 0px;
+    margin-bottom: 11px;
+}
+.div9{
+    position: absolute;
+    bottom: 0;
+    height: 64px;
+    width: 100%;
+    background-color: #ececec;
+    padding: 15px;
+    color: #70757a;
+    font-size: 14px;
+}
+.div9 .div9_Sub1{
+    margin-bottom: 12px;
+    padding-left: 20px;
+}
+.div9 .div9_Sub2 ul .d9{
+    padding:0px 15px;
+}
+.div9 .div9_Sub2{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.div9 ul li a{
+    color: #70757a;
+}
+.div9 .div9_Sub2 ul #pts{
+    margin-right: 20px;
+}
+.div9 .div9_Sub2 .div9_Sub3{
+    margin-right: 20px;
+}
+.div9 .div9_Sub3 {
+    position: relative;
+    left: 13px;
+}
+.div9 .div9_Sub4{
+    position: relative;
+    left:608px;
+}
+.div9 .hr{
+    background: silver;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    left: -15px;
+}
